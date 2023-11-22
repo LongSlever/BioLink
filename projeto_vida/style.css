@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(to right, #ffd0e8, #e5e5e5);
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+}
+
+.degrade {
+    background: linear-gradient(to right, #ffbfe6, #ffd0e8);
+}
+
+/* Estilo HGeader */
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    max-width: 180px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px rgb(241, 148, 203);
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #d31919;
+    font-weight: 300;
+}
+
+section.blinks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.link button {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+a.link i {
+    font-size: 1.5em;
+}
+
+
+a.link button:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
